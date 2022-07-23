@@ -1,0 +1,367 @@
+
+   @media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #274444;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover {
+     display: inline-block;
+     background-color:#5f957e;
+     transition: 0.3s ease;
+     color: black;
+    }
+    
+    input[type=checkbox]:checked ~ .menu {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+    }
+    .hamburger {
+     display: block;
+    }
+}
+ 
+ @media only screen and (max-width: 768px){
+     .logo a{
+         font-size: 35px;
+         margin-left: -6%;
+     }
+ 
+     .menu li{
+         float: left;
+     }
+     .menu li a {
+         font-size: 14px;
+         padding: 15px;
+     }
+    
+    .headind2 .head {
+        margin-top: 65px;
+        margin-bottom: 71px;
+    }
+    .head .w-60 {
+        margin-left: 9%;
+        margin-top: 6%;
+    }
+    .head h2 {
+        font-size: 35px;
+    }
+    .head p {
+        font-size: 17px;
+        color: #c5d7c4;
+        font-weight: bold;
+        width: 72%;
+    }
+
+    .head2{
+        width: 133%;
+    }
+    .head button{
+        margin-top: 14%;
+        padding: 9px 13px;
+    }
+    
+    .head button a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .head img {
+        height: 356px;
+        width: 318px;
+        margin-left: 55px;
+        margin-top: -38px;
+    }
+    
+
+}
+
+
+@media(max-width:768px){
+    .row{
+        flex-direction: column;
+    }
+
+    .About-me{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .About-me h1 {
+        font-size: 42px;
+    }
+
+    .img-col {
+        width: 523px;
+        border-radius: 10px;
+        margin-left: -88px;
+    }
+
+    .img-col img {
+        width: 476px;
+        border-radius: 50%;
+        margin-left: -54px;
+    }
+    .img-col p{
+        color: #685d50;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .img-col h2 {
+        margin-top: 55px;
+        margin-bottom: 14px;
+        text-align: left;
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 768px){
+    .skills h1 {
+        font-size: 37px;
+        margin-top: -58px;
+    }
+    .skills-col {
+        width: 77%;
+        margin-left: 86px;
+    }
+    .skills-col h2 {
+        margin: -9px;
+    }
+}
+
+@media(max-width: 768px){
+    .services h1 {
+        font-size: 35px;
+        margin-top: -60px;
+    }
+    .services-col {
+        margin-bottom: 5%;
+        margin-top: -42px;
+    }
+}
+
+@media(max-width: 768px){
+    .portfolios {
+        padding-top: 33px;
+    }
+    .portfolios-col img {
+        height: 303px;
+    }
+}
+@media(max-width: 768px){
+    .testimonial {
+        padding-top: 65px;
+    }
+    .testimonial p {
+        font-size: 17px;
+    }
+    .testimonial-col img {
+        margin-left:0;
+        margin-right: 15px;
+    }
+    .testimonial h1 {
+        font-weight: 500;
+    }
+
+    .testimonial-col p{
+        font-size: 14px;
+    }
+   
+    .testimonial-col h3{
+        margin-top: 15px;
+        text-align: left;
+        font-size: 20px;
+    }
+    
+}
+
+@media(max-width:768px){
+    .call-to-action h1{
+        font-size: 17px ;
+    }
+    .call-to-action {
+        margin: 39px auto;
+    }
+
+    .call-to-action a{
+        padding: 9px 15px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .logo a {
+        font-size: 30px;
+        margin-left: 14%;
+    }
+            
+            .humburger,
+    .toggle-menu{
+        display:block;
+    }
+    .header{
+        padding: 10px 20px;
+    }
+
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 171px;
+        height: 100%;
+        padding-top: 61px;
+        background: #000000ec;
+    }
+    .menu li a{
+        width: 100%;
+    }
+
+    .menu li a, .menu li a:hover {
+        font-size: 19px;
+        padding: 13px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .head2 {
+        margin-top: -53px;
+        margin-left: -27px;
+    }
+    .head h2 {
+        font-size: 30px;
+    }
+    .head p {
+        font-size: 16px;
+        width: 101%;
+    }
+
+    .head img {
+        height: 289px;
+        width: 250px;
+    }
+} 
+@media only screen and (max-width: 414px){
+    .About-me {
+        width: 65%;
+        margin-top: -9%;
+    }
+    .About-me h1 {
+        font-size: 30px;
+    }
+    .img-col {
+        margin-left: -162px;
+    }
+    .img-col img {
+        width: 297px;
+        border-radius: 50%;
+        margin-left: 62px;
+    }
+    .img-col h2 {
+        margin-top: 47px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .img-col p {
+        font-size: 15px;
+        text-align: center;
+        width: 51%;
+        margin-left: 27%;
+    }
+}   
+
+@media only screen and (max-width: 414px){
+    .skills {
+        width: 70%;
+    }
+    .skills h1 {
+        font-size: 28px;
+        margin-top: -66px;
+    }
+    .skills-col {
+        margin-bottom: 23%;
+        margin-top: -17%;
+        width: 100%;
+        margin-left: 3%;
+    }
+    .skills-col h2 {
+        margin-bottom: -2px;
+        font-size: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 414px){
+    .services h1 {
+        font-size: 29px;
+        margin-top: -84px;
+    }
+    .services-col {
+        margin-bottom: 0%;
+        margin-top: -87px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .portfolios h1 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .portfolios-col img {
+        height: 203px;
+    }
+    .portfolios-col {
+        margin-right: -4px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .testimonial {
+        padding-top: 18px;
+    }
+    .testimonial h1 {
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    .testimonial-col {
+        margin-top: -12%;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .call-to-action {
+        width: 80%;
+        height: 197px;
+    }
+    .call-to-action h1 {
+        font-size: 16px;
+        margin-top: -16%;
+    }
+    .call-to-action a {
+        padding: 7px 11px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .footer-col {
+        width: 30%;
+        padding: 0 111px;
+    }
+}
+
